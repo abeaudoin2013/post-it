@@ -1,0 +1,46 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #A0FFFF;
+$orange: #FF7D00;
+$yellow: #FFF000;
+$green: #90F432;
+$magenta: #FF00AE;
+$light-yellow: #F8FF8F;
+$grape: #D071BB;
+
+.post-if-form--content {
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+.post-it-container {
+	width: 95%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.post-it {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 0 0;
+	padding: 10px;
+	overflow-y: scroll;
+	box-shadow: 3px 3px 5px #888888;
+}
+.post-it--input {
+	background: none;
+	border: none;
+	height: 200px;
+	box-sizing: border-box;
+	&textarea:focus, &input:focus {
+		outline-width: 0;
+    outline: none;
+    border: none;
+  }
+}
+*:focus {
+    outline: none;
+    outline-width: 0;
+}

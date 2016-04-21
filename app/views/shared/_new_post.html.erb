@@ -1,0 +1,4 @@
+<%= form_for @post, class: "post-it-form", remote: true do |f| %>
+  <%= f.text_area :content, class: "post-if-form--content", rows: "10" %>
+  <%= f.submit "Make Sticky Note", class: "post-it-form--submit" %>
+<% end %> 
